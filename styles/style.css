@@ -1,0 +1,40 @@
+/* Fonts Import section */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Global Styles */
+* {
+  font-family: "Azeret Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section */
+.header-nav {
+  height: 100px;
+  width: 1440px;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.islam{
+    color: rgb(212, 14, 14);
+}
+
+.btn-resume{
+    height: 58px;
+    width: 228px;
+    background-color: white;
+    border-radius: 8px;  
+}
+/* hero-section */
+.hero-section {
+  height: 652px;
+  width: 1440px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 25px;
+}
