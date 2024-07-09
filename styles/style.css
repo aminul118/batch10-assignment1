@@ -305,3 +305,19 @@
 }
 
 /* Pre-footer section starts from here */
+.pre-footer{
+  width: 1180px;
+height: 313px;
+/* border: 2px solid red; */
+margin: 0 auto;
+margin-top: 50px;
+border-radius: 16px;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url(../assets/handshake.jpg)
+
+
+}
+
+
+}
