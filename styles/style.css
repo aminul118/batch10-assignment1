@@ -36,9 +36,13 @@
   border-radius: 8px;
   border: none;
 }
+.btn a {
+  text-decoration: none;
+  color: aliceblue;
+}
 
 .btn-learn-more {
-  width: 180px;
+  width: 150px;
   height: 48px;
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
@@ -107,6 +111,10 @@
   text-align: center;
   margin-top: 70px;
   margin-bottom: 90px;
+}
+
+.second-section a {
+  text-decoration: none;
 }
 
 .second-section-div-one {
@@ -320,58 +328,55 @@
   background-image: url(../assets/handshake.jpg);
 }
 
-.pre-footer-text{
+.pre-footer-text {
   text-align: center;
   color: aliceblue;
   padding-top: 25px;
 }
-.pre-footer-text h1{
+.pre-footer-text h1 {
   margin-bottom: 25px;
 }
-.input-btn{
+.input-btn {
   width: 120px;
   height: 65px;
-
 }
 
-.pre-footer input{
+.pre-footer input {
   width: 548px;
-height: 57px;
-border-radius: 16px;
-color: rgba(13, 19, 33, 0.4);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: center;
-border: none;
+  height: 57px;
+  border-radius: 16px;
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
 }
 
-.submit-btn{
+.submit-btn {
   width: 120px;
-height: 58px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-border-radius: 16px;
-border: none;
-margin-left: 25px;
+  height: 58px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 16px;
+  border: none;
+  margin-left: 25px;
 }
 
-.placeholder{
+.placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
 }
 
-
-
 /* footer Starts */
 .footer {
-  Swidth: 1440px;
+  swidth: 1440px;
   height: 100px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
@@ -381,7 +386,7 @@ margin-left: 25px;
   padding: 0 370px;
 }
 
-.Social-media{
+.Social-media {
   display: flex;
   align-items: center;
   gap: 20px;
