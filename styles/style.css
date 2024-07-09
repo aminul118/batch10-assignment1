@@ -20,21 +20,64 @@
   margin-top: 30px;
 }
 
-.islam{
-    color: rgb(212, 14, 14);
+.islam {
+  color: rgb(212, 14, 14);
 }
 
-.btn-resume{
-    height: 58px;
-    width: 228px;
-    background-color: white;
-    border-radius: 8px;  
+.btn{
+  width: 208px;
+height: 66px;
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 600;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  border-radius: 8px;
+  border: none;  
 }
+  
+
 /* hero-section */
 .hero-section {
   height: 652px;
   width: 1440px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
   margin: 0 auto;
   margin-top: 25px;
 }
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content {
+  width: 998px;
+  height: 310px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.hero-img {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.hero-content p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+/* second section starts from here */
